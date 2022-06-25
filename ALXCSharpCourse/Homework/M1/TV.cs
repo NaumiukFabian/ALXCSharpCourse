@@ -8,9 +8,9 @@ namespace ALXCSharpCourse.Homework.M1
 {
     public class TV
     {
-        public string TvMake { get; set; }
-        public double TvSize { get; set; }
-        public string TvSystem { get; set; }
+        public string TvMake { get; }
+        public double TvSize { get; }
+        public string TvSystem { get; }
 
         public TV(string tvMake, double tvSize, string tvSystem)
         {
@@ -36,9 +36,9 @@ namespace ALXCSharpCourse.Homework.M1
 
         }
 
-        public string TurnOf()
+        public void TurnOf()
         {
-            Console.WriteLine("Do you want turn of your TV? [TAK/NIE]");
+            Console.WriteLine("Do you want turn of your TV? [YES/NO]");
             string answer = Console.ReadLine();
             if (answer == "YES")
             {
@@ -48,8 +48,15 @@ namespace ALXCSharpCourse.Homework.M1
             {
                 Console.WriteLine("Your TV hasn not been tourned of");
             }
-            return answer;
+        
+        }
 
+        public void ChangeChannel()
+        {
+            int channelNubmer;
+            Console.WriteLine("Select channel");
+            channelNubmer = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine($"You chose channel number {channelNubmer}");
         }
     }
 }

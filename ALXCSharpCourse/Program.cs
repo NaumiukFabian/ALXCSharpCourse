@@ -11,7 +11,13 @@ using ALXCSharpCourse.Homework.M1;
 //FunctionsDemo.Run();
 //ClassedDemo.Run();
 //EnumsDemo.Run();
-TV samsungTv = new TV("samsung", 55, "android");
+/*TV samsungTv = new TV("samsung", 55, "android");
 samsungTv.TurnOn();
 samsungTv.TurnOf();
-
+samsungTv.ChangeChannel();
+*/
+WhiskyBottle bottleWhisky = new WhiskyBottle();
+bottleWhisky.SetBrand();
+bottleWhisky.SetCapacity();
+bottleWhisky.SetType();
+bottleWhisky.Drink();
