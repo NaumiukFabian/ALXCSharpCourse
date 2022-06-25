@@ -3,6 +3,9 @@
 //MlotekDoDrewna -> pascal case
 using ALXCSharpCourse.Demos;
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 //VariablesDemos.Run();
-VariablesDemos.RunLogicCalculator();
+//VariablesDemos.RunLogicCalculator();
+//FunctionsDemo.Run();
+//ClassedDemo.Run();
+EnumsDemo.Run();
