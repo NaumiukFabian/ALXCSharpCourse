@@ -1,0 +1,15 @@
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\bin\Debug\net6.0\ALXCSharpCourse.exe
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\bin\Debug\net6.0\ALXCSharpCourse.deps.json
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\bin\Debug\net6.0\ALXCSharpCourse.runtimeconfig.json
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\bin\Debug\net6.0\ALXCSharpCourse.dll
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\bin\Debug\net6.0\ALXCSharpCourse.pdb
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.csproj.AssemblyReference.cache
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.AssemblyInfoInputs.cache
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.AssemblyInfo.cs
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.csproj.CoreCompileInputs.cache
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.dll
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\refint\ALXCSharpCourse.dll
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.pdb
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ALXCSharpCourse.genruntimeconfig.cache
+C:\Users\fabia\source\repos\ALXCSharpCourse\ALXCSharpCourse\obj\Debug\net6.0\ref\ALXCSharpCourse.dll
