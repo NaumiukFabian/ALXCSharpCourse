@@ -29,4 +29,8 @@ exampleTree.Photosynthesis();
 
 ConditionalsDemo.Run();
 */
-ConditionalsDemo.RunNumberApp();
+//ConditionalsDemo.RunNumberApp();
+//ArraysAndListsDemo.RunLists();
+//ConditionalsDemo.RunSwitch();
+GLobalAndLocalVariablesDemo.Run();
+Console.WriteLine("Bye!");
