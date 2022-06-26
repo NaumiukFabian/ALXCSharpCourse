@@ -15,9 +15,18 @@ using ALXCSharpCourse.Homework.M1;
 samsungTv.TurnOn();
 samsungTv.TurnOf();
 samsungTv.ChangeChannel();
-*/
+
 WhiskyBottle bottleWhisky = new WhiskyBottle();
 bottleWhisky.SetBrand();
 bottleWhisky.SetCapacity();
 bottleWhisky.SetType();
 bottleWhisky.Drink();
+
+Tree exampleTree = new Tree();
+exampleTree.ChangeTree();
+exampleTree.YourTree();
+exampleTree.Photosynthesis();
+
+ConditionalsDemo.Run();
+*/
+ConditionalsDemo.RunNumberApp();
