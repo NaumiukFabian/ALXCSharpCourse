@@ -3,6 +3,7 @@
 //MlotekDoDrewna -> pascal case
 using ALXCSharpCourse.Demos;
 using ALXCSharpCourse.Homework.M1;
+using ALXCSharpCourse.Homework.M2;
 
 
 //Console.WriteLine("Hello, World!");
@@ -32,5 +33,7 @@ ConditionalsDemo.Run();
 //ConditionalsDemo.RunNumberApp();
 //ArraysAndListsDemo.RunLists();
 //ConditionalsDemo.RunSwitch();
-GLobalAndLocalVariablesDemo.Run();
-Console.WriteLine("Bye!");
+//GLobalAndLocalVariablesDemo.Run();
+//Console.WriteLine("Bye!");
+Calculator calc = new Calculator();
+calc.Calc();
