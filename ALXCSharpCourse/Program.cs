@@ -36,4 +36,4 @@ ConditionalsDemo.Run();
 //GLobalAndLocalVariablesDemo.Run();
 //Console.WriteLine("Bye!");
 Calculator calc = new Calculator();
-calc.Calc();
+calc.CalcPlusMinus();

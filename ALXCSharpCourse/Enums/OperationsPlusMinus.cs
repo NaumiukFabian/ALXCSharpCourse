@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace ALXCSharpCourse.Enums
 {
-    public enum Operations
+    public enum OperationsPlusMinus
     {
         ADDITION,
-        SUBTRACTION,
-        MULTIPLICATION,
-        DIVISION
-
+        SUBTRACTION
     }
 }
