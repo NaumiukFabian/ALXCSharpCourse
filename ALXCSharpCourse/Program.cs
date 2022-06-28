@@ -35,7 +35,7 @@ ConditionalsDemo.Run();
 //ConditionalsDemo.RunSwitch();
 //GLobalAndLocalVariablesDemo.Run();
 //Console.WriteLine("Bye!");
-Calculator calc = new Calculator();
+/*Calculator calc = new Calculator();
 
 string finish = "";
 
@@ -63,6 +63,11 @@ do
     }
 
 } while (finish != "q");
+*/
+Exercises ex1 = new Exercises();
+ex1.Vol1();
+ex1.Vol2();
+ex1.Vol3();
 
 
 
