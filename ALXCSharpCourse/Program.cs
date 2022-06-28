@@ -36,4 +36,33 @@ ConditionalsDemo.Run();
 //GLobalAndLocalVariablesDemo.Run();
 //Console.WriteLine("Bye!");
 Calculator calc = new Calculator();
-calc.CalcPlusMinus();
+
+string finish = "";
+
+do
+{
+    Console.WriteLine("If you want add or sub press 1 otherwise press 2");
+    int chose = Convert.ToInt32(Console.ReadLine());
+
+    switch (chose)
+    {
+        case 1:
+            calc.CalcPlusMinus();
+            Console.WriteLine("Press q to end or enter to try again");
+            finish = Console.ReadLine();
+            break;
+        case 2:
+            calc.CaclSubDiv();
+            Console.WriteLine("Press q to end or enter to try again");
+            finish = Console.ReadLine();
+            break;
+
+        default:
+            Console.WriteLine("default");
+            break;
+    }
+
+} while (finish != "q");
+
+
+
