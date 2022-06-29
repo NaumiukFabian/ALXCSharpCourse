@@ -117,5 +117,40 @@ namespace ALXCSharpCourse.Homework.M2
             wynik7 = ((!(p7 || q7)) == ((!p7) && (!q7)));
             Console.WriteLine(wynik7);
         }
+
+        public void vol6()
+        {
+            Console.WriteLine("Enter value of purchas");
+            double purchasValue = Convert.ToDouble(Console.ReadLine());
+
+            if (purchasValue > 100)
+            {
+                double wynik = purchasValue * 0.85;
+                Console.WriteLine(wynik);
+            }
+
+            else if((purchasValue < 100) && (purchasValue > 60))
+            {
+                double wynik = purchasValue * 0.95;
+                Console.WriteLine(wynik);
+            }
+
+            switch(purchasValue)
+            {
+                case >100:
+                    double wynik = purchasValue * 0.85;
+                    Console.WriteLine(wynik);
+                    break;
+                case  >60:
+                    double wynik1 = purchasValue * 0.95;
+                    Console.WriteLine(wynik1);
+                    break;
+                default:
+                    Console.WriteLine("default");
+                        break;
+            }
+                
+            
+        }
     }
 }
