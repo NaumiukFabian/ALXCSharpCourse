@@ -37,5 +37,85 @@ namespace ALXCSharpCourse.Homework.M2
             Months month = Months.JUNE;
             Console.WriteLine($"Today is {day}, month: {month}, year: 2022");
         }
+
+        public void Vol4()
+        {
+            int a = 3;
+            int b = 6;
+            int c = 15;
+            double wynik;
+            wynik = ((double)(a ^ 2) / 2) % c;
+            bool cond;
+            cond = a > wynik;
+            Console.WriteLine(cond);
+        }
+        public void vol5()
+        {
+            //1 prawo
+            bool p;
+            bool q;
+            bool wynik;
+            p = true;
+            q = true;
+            wynik = ((!(p && q)) == ((!p) || (!q)));
+            Console.WriteLine(wynik);
+
+            bool p1;
+            bool q1;
+            bool wynik1;
+            p1 = true;
+            q1= false;
+            wynik1 = ((!(p1 && q1)) == ((!p1) || (!q1)));
+            Console.WriteLine(wynik1);
+
+            bool p2;
+            bool q2;
+            bool wynik2;
+            p2 = false;
+            q2 = true;
+            wynik2 = ((!(p2 && q2)) == ((!p2) || (!q2)));
+            Console.WriteLine(wynik2);
+
+            bool p3;
+            bool q3;
+            bool wynik3;
+            p3 = false;
+            q3 = false;
+            wynik3 = ((!(p3 && q3)) == ((!p3) || (!q3)));
+            Console.WriteLine(wynik3);
+
+            //2 prawo
+            bool p4;
+            bool q4;
+            bool wynik4;
+            p4 = true;
+            q4 = true;
+            wynik4 = ((!(p4 || q4)) == ((!p4) && (!q4)));
+            Console.WriteLine(wynik4);
+
+            bool p5;
+            bool q5;
+            bool wynik5;
+            p5 = true;
+            q5 = false;
+            wynik5 = ((!(p5 || q5)) == ((!p5) && (!q5)));
+            Console.WriteLine(wynik5);
+
+            bool p6;
+            bool q6;
+            bool wynik6;
+            p6 = false;
+            q6 = true;
+            wynik6 = ((!(p6 || q6)) == ((!p6) && (!q6)));
+            Console.WriteLine(wynik6);
+
+            bool p7;
+            bool q7;
+            bool wynik7;
+            p7 = false;
+            q7 = false;
+            wynik7 = ((!(p7 || q7)) == ((!p7) && (!q7)));
+            Console.WriteLine(wynik7);
+        }
     }
 }

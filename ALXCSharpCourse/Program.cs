@@ -65,9 +65,8 @@ do
 } while (finish != "q");
 */
 Exercises ex1 = new Exercises();
-ex1.Vol1();
-ex1.Vol2();
-ex1.Vol3();
+
+ex1.vol5();
 
 
 
