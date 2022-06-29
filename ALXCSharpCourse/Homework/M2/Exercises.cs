@@ -152,5 +152,41 @@ namespace ALXCSharpCourse.Homework.M2
                 
             
         }
+
+        public void vol7()
+        {
+            int[] id = { 1, 2, 3, 4, 5 };
+            double[] price = { 3.58, 9.61, 8.52, 10.25, 6.17 };
+            double[] vat = { 1.05, 1.05, 1.08, 1.08, 1.23 };
+            int[] numberOfPieces = { 10, 25, 18, 36, 4 };
+            int[] numberOfBoxes = { 2, 5, 3, 6, 1 };
+
+            for(int i = 0; i < id.Length; i++)
+            {
+                double priceWithVat = price[i] * vat[i];
+                Console.WriteLine(String.Format("{0:N2}",priceWithVat) + "zł");
+            }
+
+            for( int i = 0; i < id.Length; i++)
+            {
+                double valueOfStorage = price[i] * vat[i] * numberOfPieces[i] * numberOfBoxes[i];
+                Console.WriteLine(String.Format("{0:N2}", valueOfStorage) + "zł");
+            }
+        }
+
+        public void vol8()
+        {
+            Console.Write("Enter number: ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            for(int i = 1; i <= number; i++)
+            {
+                if(number%i == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+
+
     }
 }
