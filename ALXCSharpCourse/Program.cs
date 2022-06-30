@@ -66,7 +66,7 @@ do
 */
 Exercises ex1 = new Exercises();
 
-ex1.vol9();
+ex1.vol10();
 
 
 
