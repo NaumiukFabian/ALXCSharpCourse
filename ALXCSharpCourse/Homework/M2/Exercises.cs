@@ -274,6 +274,26 @@ namespace ALXCSharpCourse.Homework.M2
 
         }
 
+        public void vol11()
+        {
+            int[] table = new int[5];
+            int[] table1 = new int[5];
+            const int x = 5;
+
+            for( int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"Enter {i + 1} number");
+                table[i] = Convert.ToInt32(Console.ReadLine());
+                table1[i] = table[i] + x;
+            }
+
+            Console.WriteLine("Your nubmers + 5");
+            foreach(int number in table1)
+            {
+                Console.WriteLine(number);
+            }
+        }
+
 
     }
 }
