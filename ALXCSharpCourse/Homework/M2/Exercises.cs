@@ -187,6 +187,68 @@ namespace ALXCSharpCourse.Homework.M2
             }
         }
 
+        public void vol9()
+        {
+            string[] product = { "product1", "product2", "product3", "product4" };
+            int[] priceBrutto = { 100, 150, 200, 250 };
+            Console.WriteLine("Chose product - 1, 2, 3 or 4");
+            int check;
+            bool numberOfProduct = Int32.TryParse(Console.ReadLine(), out check);
+            string q = "";
+
+            if(numberOfProduct)
+            {
+                do
+                {
+                    
+                    switch (check)
+                    {
+                        case 1:
+                            Console.WriteLine($"{product[check - 1]}");
+                            Console.WriteLine($"Brutto price - {priceBrutto[check - 1]}, Netto price - {((double)priceBrutto[check - 1]) * 0.77}");
+                            Console.WriteLine("If tou want quit press q, if don't press anything other");
+                            q = Console.ReadLine();
+                            break;
+                        case 2:
+                            Console.WriteLine($"{product[check - 1]}");
+                            Console.WriteLine($"Brutto price - {priceBrutto[check - 1]}, Netto price - {((double)priceBrutto[check - 1]) * 0.77}");
+                            Console.WriteLine("If tou want quit press q, if don't press anything other");
+                            q = Console.ReadLine();
+                            break;
+                        case 3:
+                            Console.WriteLine($"{product[check - 1]}");
+                            Console.WriteLine($"Brutto price - {priceBrutto[check - 1]}, Netto price - {((double)priceBrutto[check - 1]) * 0.77}");
+                            Console.WriteLine("If tou want quit press q, if don't press anything other");
+                            q = Console.ReadLine();
+                            break;
+                        case 4:
+                            Console.WriteLine($"{product[check - 1]}");
+                            Console.WriteLine($"Brutto price - {priceBrutto[check - 1]}, Netto price - {((double)priceBrutto[check - 1]) * 0.77}");
+                            Console.WriteLine("If tou want quit press q, if don't press anything other");
+                            q = Console.ReadLine();
+                            break;
+                        default:
+                            Console.WriteLine("default");
+                            break;
+
+                    }
+                    
+                    if(q != "q")
+                    {
+                        Console.WriteLine("Chose product - 1, 2, 3 or 4");
+                        check = Convert.ToInt32(Console.ReadLine());
+                    }
+                    
+                }
+                while (q != "q");
+                
+            }
+            else
+            {
+                Console.WriteLine("Is not 1,2,3,4");
+            }
+        }
+
 
     }
 }
