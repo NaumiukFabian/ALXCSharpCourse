@@ -64,7 +64,7 @@ namespace ALXCSharpCourse.Homework.M2
             bool q1;
             bool wynik1;
             p1 = true;
-            q1= false;
+            q1 = false;
             wynik1 = ((!(p1 && q1)) == ((!p1) || (!q1)));
             Console.WriteLine(wynik1);
 
@@ -129,28 +129,28 @@ namespace ALXCSharpCourse.Homework.M2
                 Console.WriteLine(wynik);
             }
 
-            else if((purchasValue < 100) && (purchasValue > 60))
+            else if ((purchasValue < 100) && (purchasValue > 60))
             {
                 double wynik = purchasValue * 0.95;
                 Console.WriteLine(wynik);
             }
 
-            switch(purchasValue)
+            switch (purchasValue)
             {
-                case >100:
+                case > 100:
                     double wynik = purchasValue * 0.85;
                     Console.WriteLine(wynik);
                     break;
-                case  >60:
+                case > 60:
                     double wynik1 = purchasValue * 0.95;
                     Console.WriteLine(wynik1);
                     break;
                 default:
                     Console.WriteLine("default");
-                        break;
+                    break;
             }
-                
-            
+
+
         }
 
         public void vol7()
@@ -161,13 +161,13 @@ namespace ALXCSharpCourse.Homework.M2
             int[] numberOfPieces = { 10, 25, 18, 36, 4 };
             int[] numberOfBoxes = { 2, 5, 3, 6, 1 };
 
-            for(int i = 0; i < id.Length; i++)
+            for (int i = 0; i < id.Length; i++)
             {
                 double priceWithVat = price[i] * vat[i];
-                Console.WriteLine(String.Format("{0:N2}",priceWithVat) + "zł");
+                Console.WriteLine(String.Format("{0:N2}", priceWithVat) + "zł");
             }
 
-            for( int i = 0; i < id.Length; i++)
+            for (int i = 0; i < id.Length; i++)
             {
                 double valueOfStorage = price[i] * vat[i] * numberOfPieces[i] * numberOfBoxes[i];
                 Console.WriteLine(String.Format("{0:N2}", valueOfStorage) + "zł");
@@ -178,9 +178,9 @@ namespace ALXCSharpCourse.Homework.M2
         {
             Console.Write("Enter number: ");
             int number = Convert.ToInt32(Console.ReadLine());
-            for(int i = 1; i <= number; i++)
+            for (int i = 1; i <= number; i++)
             {
-                if(number%i == 0)
+                if (number % i == 0)
                 {
                     Console.WriteLine(i);
                 }
@@ -196,11 +196,11 @@ namespace ALXCSharpCourse.Homework.M2
             bool numberOfProduct = Int32.TryParse(Console.ReadLine(), out check);
             string q = "";
 
-            if(numberOfProduct)
+            if (numberOfProduct)
             {
                 do
                 {
-                    
+
                     switch (check)
                     {
                         case 1:
@@ -232,16 +232,16 @@ namespace ALXCSharpCourse.Homework.M2
                             break;
 
                     }
-                    
-                    if(q != "q")
+
+                    if (q != "q")
                     {
                         Console.WriteLine("Chose product - 1, 2, 3 or 4");
                         check = Convert.ToInt32(Console.ReadLine());
                     }
-                    
+
                 }
                 while (q != "q");
-                
+
             }
             else
             {
@@ -251,18 +251,18 @@ namespace ALXCSharpCourse.Homework.M2
 
         public void vol10()
         {
-            int[,] matrix = new int[3,3];
+            int[,] matrix = new int[3, 3];
 
-            for(int i = 0; i < 3; i++)
+            for (int i = 0; i < 3; i++)
             {
-                for(int j = 0; j < 3; j++)
+                for (int j = 0; j < 3; j++)
                 {
                     Console.WriteLine($"Enter a[{i},{j}]");
-                    matrix[i,j] = Convert.ToInt32(Console.ReadLine());
+                    matrix[i, j] = Convert.ToInt32(Console.ReadLine());
                 }
             }
 
-            for(int j = 0; j < 3; j++)
+            for (int j = 0; j < 3; j++)
             {
                 Console.WriteLine();
                 for (int i = 0; i < 3; i++)
@@ -280,20 +280,50 @@ namespace ALXCSharpCourse.Homework.M2
             int[] table1 = new int[5];
             const int x = 5;
 
-            for( int i = 0; i < 5; i++)
+            for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine($"Enter {i + 1} number");
                 table[i] = Convert.ToInt32(Console.ReadLine());
-                table1[i] = table[i] + x;
+                table[i] = table[i] + x;
             }
 
             Console.WriteLine("Your nubmers + 5");
-            foreach(int number in table1)
+            foreach (int number in table)
             {
                 Console.WriteLine(number);
             }
         }
 
+        public void vol12()
+        {
+            foreach (var month in Enum.GetNames(typeof(Months)))
+            {
+                Console.WriteLine(month);
+            }
+
+        }
+
+        public void vol13()
+        {
+            var month = new List<string>();
+            month.Add("JANUARY");
+            month.Add("FEBRUARY");
+            month.Add("MARCH");
+            month.Add("APRIL");
+            month.Add("MAY");
+            month.Add("JUNE");
+            month.Add("JULY");
+            month.Add("AUGUST");
+            month.Add("SEPTEMBER");
+            month.Add("OCTOBER");
+            month.Add("NOVEMBER");
+            month.Add("DECEMBER");
+
+            foreach(var months in month)
+            {
+                Console.WriteLine(months);
+            }
+        }
 
     }
 }
