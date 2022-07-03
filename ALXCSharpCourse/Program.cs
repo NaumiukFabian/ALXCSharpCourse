@@ -63,10 +63,24 @@ do
     }
 
 } while (finish != "q");
-*/
+
 Exercises ex1 = new Exercises();
 
 ex1.vol13();
 
+
+
+Zegar budzik = new Zegar();
+Console.WriteLine(budzik.ZwrocUstawionaGodzine());
+Zegarmistrz.UstawZadanaGodzineNaZegarku(budzik, 17, 15);
+Console.WriteLine(budzik.ZwrocUstawionaGodzine());
+*/
+Zwierze zwierz1 = new Kotowate();
+Zwierze zwierze2 = new DomowyKotek();
+string ustawGlos;
+ustawGlos = zwierz1.DajGlos();
+Console.WriteLine(ustawGlos);
+ustawGlos = zwierze2.DajGlos();
+Console.WriteLine(ustawGlos);
 
 
