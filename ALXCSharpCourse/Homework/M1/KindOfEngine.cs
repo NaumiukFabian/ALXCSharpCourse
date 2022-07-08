@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace ALXCSharpCourse.Homework.M1
 {
-    enum ListOfCars
+    enum KindOfEngine
     {
-        BMW,
-        AUDI,
-        VOLKSWAGEN,
+        DIESEL,
+        PETROL,
+        HYBRID,
+        ELECTRIC
     }
 }

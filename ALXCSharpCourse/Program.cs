@@ -84,6 +84,8 @@ ustawGlos = zwierze2.DajGlos();
 Console.WriteLine(ustawGlos);
 */
 
-Cars check = new Cars();
+CarAccessories check = new CarAccessories();
 check.SetCar();
 check.SetModel();
+check.info();
+check.Engine();
